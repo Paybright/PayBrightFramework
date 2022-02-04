@@ -88,11 +88,9 @@ Pod::Spec.new do |spec|
 
   # spec.source       = { :http => 'file:' + __dir__ + "/" }
   
-  spec.source       = { :git => "https://github.com/Manpreet-Prince/TestingPB.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Paybright/PayBrightFramework.git", :tag => "#{spec.version}" }
   
   spec.vendored_frameworks = "PayBright.xcframework"
-  
-  #  spec.source       = { :git => "https://github.com/paybright/paybright-ios-sdk.git", :tag => "0.1.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
