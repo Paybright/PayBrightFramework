@@ -3,16 +3,15 @@ import PackageDescription
 let package = Package(
     name: "PayBright",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13),
     ],
     products: [
         .library(
             name: "PayBright", 
-            targets: ["PayBright"])
+            targets: ["PayBright"]
+        ),
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "PayBright"
@@ -22,4 +21,5 @@ let package = Package(
             url: "https://github.com/Paybright/PayBrightFramework/releases/tag/0.1.5/PayBright.xcframework.zip"),
             checksum: "6bfe898d51a4ee6b2bcdd603b03b34c808e646b1a5f36191033b596bf61aaf9d"
         ),
-    ])
+    ]
+)
