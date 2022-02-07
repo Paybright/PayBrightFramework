@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "PayBright",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -19,5 +19,5 @@ let package = Package(
         ),
         .binaryTarget(
             name: "PayBright", 
-            path: "PayBright.xcframework")
+            url: "https://github.com/Paybright/PayBrightFramework.git")
     ])
