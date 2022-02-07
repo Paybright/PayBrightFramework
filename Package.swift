@@ -2,10 +2,16 @@
 import PackageDescription
 let package = Package(
     name: "PayBright",
+    platforms: [
+        .iOS(.v11)
+    ],
     products: [
-        .library(name: "PayBright", targets: ["PayBright"])
+        .library(
+            name: "PayBright", 
+            targets: ["PayBright"])
     ],
     targets: [
-        .binaryTarget(name: "PayBright", path: "./PayBright.xcframework")
-    ]
-)
+        .binaryTarget(
+            name: "PayBright", 
+            path: "PayBright.xcframework")
+    ])
