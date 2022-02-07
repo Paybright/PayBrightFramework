@@ -10,9 +10,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(
-            name: "PayBright"
-        ),
         .binaryTarget(
             name: "PayBright", 
             path: "PayBright.xcframework"
