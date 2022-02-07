@@ -6,6 +6,7 @@ let package = Package(
         .library(name: "PayBright", targets: ["PayBright"])
     ],
     targets: [
-        .target(name: "PayBright", path: "PayBright")
+        .target(name: "PayBright"),
+	.binaryTarget(name: "PayBright", path: "PayBright.xcframework")  
     ]
 )
