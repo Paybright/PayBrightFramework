@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PayBright"
-  spec.version      = "0.1.6"
+  spec.version      = "0.1.7"
   spec.summary      = "Instant point-of-sale financing for e-commerce and in-store purchases"
 
   # This description is used to generate tags and improve search results.
